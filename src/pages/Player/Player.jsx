@@ -20,7 +20,8 @@ const Player = () => {
         method: 'GET',
         headers: {
           accept: 'application/json',
-          Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMzhlYWMzZDVlMTQ4MTIwNGRhNTE3MjRmMGZkNjZhYiIsIm5iZiI6MTczMDM1OTUxNS40OTg5MzIxLCJzdWIiOiI2NzIzMmUyYjgyNjU4YWVlYWM5MjU1ZGYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.S9tewERdWToSyEI_qpByZ59HzPaWJQZAGr13thvPn0g'
+          // Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMzhlYWMzZDVlMTQ4MTIwNGRhNTE3MjRmMGZkNjZhYiIsIm5iZiI6MTczMDM1OTUxNS40OTg5MzIxLCJzdWIiOiI2NzIzMmUyYjgyNjU4YWVlYWM5MjU1ZGYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.S9tewERdWToSyEI_qpByZ59HzPaWJQZAGr13thvPn0g'
+          Authorization: `Bearer ${import.meta.env.VITE_TMDB_Player_API_KEY}`
         }
       };
 
